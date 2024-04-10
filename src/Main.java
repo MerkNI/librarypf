@@ -4,12 +4,12 @@ public class Main {
     public static void main(String[] args) {
 
         Book b = new Book( "Ethan", "Java Programming", "9484342832482");
-
-        System.out.println(b);
-
+        /**System.out.println(b);
         b.setOnLoan(true);
+        System.out.println();*/
 
-        System.out.println();
+        UserInterface ui = new UserInterface();
+
 
     }
 }

@@ -66,6 +66,6 @@ public class Book {
             available = " (available)";
         }
 
-        return "Title:" + this.getTitle() + ", author: " + this.getAuthor() + "avaiable" + this.setOnLoan();
+        return "Title:" + this.getTitle() + ", author: " + this.getAuthor() + available;
     }
 }
